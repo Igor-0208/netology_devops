@@ -1,18 +1,23 @@
 1.  git show aefea
+  
     commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545
     Update CHANGELOG.md
     
 2.  git show 85024d3
+  
     commit 85024d3100126de36331c6982bfaac02cdab9e76 (tag: v0.12.23)
 
 3.  git show b8d720
+
     Merge: 56cd7859e05c36c06b56d013b55a252d0bb7e158
     Merge: 9ea88f22fc6269854151c571162c5bcf958bee2b
     
 4.  git show v0.12.23
+  
     commit 85024d3100126de36331c6982bfaac02cdab9e76 (tag: v0.12.23)
     
     git show v0.12.24
+    
     commit 33ff1c03bb960b332be3af2e333462dde88b279e (tag: v0.12.24)
     
     git show 85024d3100126de36331c6982bfaac02cdab9e76..33ff1c03bb960b332be3af2e333462dde88b279e --pretty=format:"Хэш:%H%nКоммментарий:%s%n" -s
@@ -42,9 +47,11 @@
    Коммментарий:Update CHANGELOG.md
 
 5.  git log -S "func providerSource" --reverse --oneline
+  
     8c928e835 main: Consult local directories as potential mirrors of providers
 
 6.  git log -L:globalPluginDirs:plugins.go -s --oneline
+
     78b122055 Remove config.go and update things using its aliases
     52dbf9483 keep .terraform.d/plugins for discovery
     41ab0aef7 Add missing OS_ARCH dir to global plugin paths
@@ -52,4 +59,5 @@
     8364383c3 Push plugin discovery down into command package
     
 7.  git log -S "synchronizedWriters"
+
     Author: Martin Atkins <mart@degeneration.co.uk>
