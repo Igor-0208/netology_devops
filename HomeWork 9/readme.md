@@ -84,6 +84,10 @@ node_network_transmit_errs_total
 
 ![image](https://user-images.githubusercontent.com/60341565/143036293-4b474b71-8ee5-4da8-88ac-77143c93fa40.png)
 
+virtualized system. - Виртуальная система
+
+on bare hardware - физическое железо
+
 Задание 5.
 ===================
 
