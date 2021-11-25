@@ -34,3 +34,12 @@
 Задание 8.
 ==============
 
+![image](https://user-images.githubusercontent.com/60341565/143422459-3a342ae9-3576-4859-a1c6-7cf9a6a37fa1.png)
+
+Задание 9.
+==============
+
+![image](https://user-images.githubusercontent.com/60341565/143422919-1620bb0a-6f4d-4b47-9473-e4a9d81015f6.png)
+
+Задание 10.
+==============
