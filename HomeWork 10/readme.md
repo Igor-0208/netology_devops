@@ -43,3 +43,38 @@
 
 Задание 10.
 ==============
+
+![image](https://user-images.githubusercontent.com/60341565/143456406-6ae1a1ee-630e-4abb-a11a-8f1cfee478e5.png)
+
+Задание 11.
+=============
+
+![image](https://user-images.githubusercontent.com/60341565/143456641-91bb43c0-57f1-4e12-aaa9-46b428435453.png)
+
+Задание 12.
+=============
+
+![image](https://user-images.githubusercontent.com/60341565/143456879-58924d19-3f88-4fc5-be1e-0e3efed9ab58.png)
+
+Задание 13.
+===============
+
+![image](https://user-images.githubusercontent.com/60341565/143457305-aed2b9c2-bf94-4d0d-bbd4-f13eb0e3771f.png)
+
+Задание 14.
+===============
+
+![image](https://user-images.githubusercontent.com/60341565/143457474-a73d52cd-2715-4794-bd50-8375e7562154.png)
+
+Задание 15.
+=================
+
+![image](https://user-images.githubusercontent.com/60341565/143457668-1af693c0-e6cc-4c68-99ce-4a52aebfdcd1.png)
+
+Задание 16.
+=================
+
+![image](https://user-images.githubusercontent.com/60341565/143458243-6f8d6af1-7650-416a-8fcf-b98ce65833ec.png)
+
+Задание 17.
+=================
