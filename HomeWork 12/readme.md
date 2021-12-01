@@ -34,11 +34,11 @@ netstat -i
 
 Обнаружение соседей:
 
-root@vagrant> show lldp neighbors 
-Local Interface    Parent Interface    Chassis Id          Port info          System Name
-ge-0/0/2.0         -                   00:0c:29:4f:26:bb   eth1               km-vm1              
-ge-1/0/2.0         -                   00:0c:29:4f:26:bb   eth2               km-vm1              
-vme.0              -                   00:19:06:cd:8f:80   GigabitEthernet1/0/36 oob-sw0-10.lab
+        root@vagrant> show lldp neighbors 
+        Local Interface    Parent Interface    Chassis Id          Port info          System Name
+        ge-0/0/2.0         -                   00:0c:29:4f:26:bb   eth1               km-vm1              
+        ge-1/0/2.0         -                   00:0c:29:4f:26:bb   eth2               km-vm1              
+        vme.0              -                   00:19:06:cd:8f:80   GigabitEthernet1/0/36 oob-sw0-10.lab
 
 Задание 3.
 ====================
@@ -51,15 +51,15 @@ VLAN – это аббревиатура, означающая Virtual Local Are
 
 В новосозданный файл пишем следующий код:
 
-# Конфигурация VLAN с ID – 100 для интерфейса eth0 #
-DEVICE=eth0.100
-BOOTPROTO=none
-ONBOOT=yes
-IPADDR=192.168.1.5
-NETMASK=255.255.255.0
-USERCTL=no
-NETWORK=192.168.1.0
-VLAN=yes
+        # Конфигурация VLAN с ID – 100 для интерфейса eth0 #
+        DEVICE=eth0.100
+        BOOTPROTO=none
+        ONBOOT=yes
+        IPADDR=192.168.1.5
+        NETMASK=255.255.255.0
+        USERCTL=no
+        NETWORK=192.168.1.0
+        VLAN=yes
 
 Задание 4.
 =====================
