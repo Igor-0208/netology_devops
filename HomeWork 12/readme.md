@@ -47,7 +47,7 @@ VLAN – это аббревиатура, означающая Virtual Local Are
 
 Создаем новый файл например с помощью редактора vim
 
-# vim /etc/sysconfig/network-scripts/ifcfg-eth0.100
+        # vim /etc/sysconfig/network-scripts/ifcfg-eth0.100
 
 В новосозданный файл пишем следующий код:
 
@@ -84,15 +84,15 @@ Linux поддерживает несколько режимов агрегац�
 
 Пример конфига по пути:
 
-auto bond0
-iface bond0 inet static
-        address 192.168.0.2
-        netmask 255.255.255.0
-        network 192.168.0.0
-        broadcast 192.168.0.255
-        gateway 192.168.0.1
-        up /sbin/ifenslave bond0 eth0 eth1
-        down /sbin/ifenslave -d bond0 eth0 eth1
+        auto bond0
+        iface bond0 inet static
+                address 192.168.0.2
+                netmask 255.255.255.0
+                network 192.168.0.0
+                broadcast 192.168.0.255
+                gateway 192.168.0.1
+                up /sbin/ifenslave bond0 eth0 eth1
+                down /sbin/ifenslave -d bond0 eth0 eth1
 
 Задание 5.
 =====================
