@@ -67,3 +67,10 @@
 Задание 5.
 =====================
 
+
+Задание 6.
+=====================
+
+![image](https://user-images.githubusercontent.com/60341565/144434845-b3e942ca-ac2f-4adf-b80c-754b5aa23ebb.png)
+
+![image](https://user-images.githubusercontent.com/60341565/144434717-f70a9a58-3dbd-40c1-af94-b821329fffe5.png)
