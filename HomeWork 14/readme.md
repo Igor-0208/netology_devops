@@ -22,6 +22,10 @@
 Задание 5.
 ==================
 
+![image](https://user-images.githubusercontent.com/60341565/145365590-91c80843-66cf-4aee-8f9c-d7b6f484f844.png)
+
+![image](https://user-images.githubusercontent.com/60341565/145369856-db8b60d4-38f0-4bd7-ae61-427fbfc7107c.png)
+
 
 Задание 6.
 =================
