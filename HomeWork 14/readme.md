@@ -11,8 +11,7 @@
 Задание 3.
 =================
 
-![image](https://user-images.githubusercontent.com/60341565/144812962-da38b98b-b79f-4346-8912-838cc3007e46.png)
-
+![image](https://user-images.githubusercontent.com/60341565/145363489-c0d2f518-e4f1-4571-87f2-8709a22eb110.png)
 
 
 Звдание 4.
