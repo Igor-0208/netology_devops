@@ -30,6 +30,15 @@
 Задание 6.
 =================
 
+    vim ~/.ssh/config
+
+    Host localhost
+    HostName localhost
+    IdentityFile ~/.ssh/id_ed25519
+    User root
+
+![image](https://user-images.githubusercontent.com/60341565/145395015-a0101fc1-6144-4bbc-9783-6b49de69b374.png)
+
 
 Задание 7.
 =================
