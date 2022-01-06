@@ -16,6 +16,8 @@
 
 ![image](https://user-images.githubusercontent.com/60341565/148404087-5c21da00-0f25-4d69-90bd-019a1ed15cf1.png)
 
+![image](https://user-images.githubusercontent.com/60341565/148404557-17ab0078-853a-44bd-a9aa-b624da411939.png)
+
 Задание 4.
 ===========================
 
