@@ -52,3 +52,11 @@
     vault status
     
 ![image](https://user-images.githubusercontent.com/60341565/148524883-830b4f69-fa76-407e-adb4-e4215b6b4aba.png)
+
+Инициализируем vault:
+
+    vault operator init
+
+![image](https://user-images.githubusercontent.com/60341565/148530317-9672a211-78e5-42ed-a089-a8619646b4f5.png)
+
+![image](https://user-images.githubusercontent.com/60341565/148531125-fe945345-3fad-4085-a3e9-7a8ff8a31c82.png)
