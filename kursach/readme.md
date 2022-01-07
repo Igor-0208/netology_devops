@@ -23,3 +23,31 @@
 Задание 4.
 ===========================
 
+Настройка рабочего окружения
+
+Воспользуемся командой 
+
+    export VAULT_ADDR=http://127.0.0.1:8200
+Она укажет текущему окружению подключаться к серверу по http. Затем открываем файл 
+    nano /etc/vault.d/vault.hcl
+
+И снимаем комментарии со следующих строк:
+ 
+    listener "tcp" {
+      address = "127.0.0.1:8200"
+      tls_disable = 1
+    }
+
+Перезапускаем службу vault:
+
+    systemctl restart vault
+
+Обновляем системную переменную VAULT_ADDR:
+
+    export VAULT_ADDR=http://127.0.0.1:8200
+    
+Выводим на экран статус:
+
+    vault status
+    
+![image](https://user-images.githubusercontent.com/60341565/148524883-830b4f69-fa76-407e-adb4-e4215b6b4aba.png)
