@@ -67,4 +67,26 @@
 
 ![image](https://user-images.githubusercontent.com/60341565/148689968-e92d101c-7015-428d-86ed-77b829097786.png)
 
+Задание 5.
+=====================
 
+Создаем директорию
+
+    sudo mkdir /usr/local/share/ca-certificates
+    
+Копируем наш сертификат в директорию
+
+    sudo cp vault.example.com.crt /usr/local/share/ca-certificates/
+    
+Обновляем список
+
+    sudo update-ca-certificates
+    
+![image](https://user-images.githubusercontent.com/60341565/148693298-b20da070-d1ba-47ba-8ddb-709bacbbf5e4.png)
+
+Добавляем свой корневой СА в доверенные
+
+    sudo cp ./vault.example.com.crt /etc/ca-certificates/trust-source/anchors/
+
+Задание 6.
+==============================
