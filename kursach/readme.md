@@ -88,5 +88,9 @@
 
     sudo cp ./vault.example.com.crt /etc/ca-certificates/trust-source/anchors/
 
+Обновляем общесистемный список доверенных CA
+
+    sudo update-ca-trust
+
 Задание 6.
 ==============================
