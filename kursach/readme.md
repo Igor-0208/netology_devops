@@ -94,3 +94,16 @@
 
 Задание 6.
 ==============================
+
+Устанавливаем nginx 
+
+    sudo apt-get install nginx
+
+![image](https://user-images.githubusercontent.com/60341565/148697053-b6ba027f-1e75-47e2-b76c-cec7b9c584b2.png)
+
+Запускаем 
+
+    systemctl enable nginx
+    systemctl start nginx
+    
+![image](https://user-images.githubusercontent.com/60341565/148697141-d6dfd53a-45ff-45fe-be65-0ac81ed2d25f.png)
