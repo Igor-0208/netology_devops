@@ -76,7 +76,7 @@
     
 Копируем наш сертификат в директорию
 
-    sudo cp vault.example.com.crt /usr/local/share/ca-certificates/
+    sudo cp CA_cert.crt /usr/local/share/ca-certificates/
     
 Обновляем список
 
