@@ -84,8 +84,7 @@
     
 ![image](https://user-images.githubusercontent.com/60341565/149653903-aa6a8f9d-c243-43ab-a055-911a3e728e50.png)
 
-    
-![image](https://user-images.githubusercontent.com/60341565/148693298-b20da070-d1ba-47ba-8ddb-709bacbbf5e4.png)
+
 
 Добавляем свой корневой СА в доверенные
 
