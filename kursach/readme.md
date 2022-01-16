@@ -85,15 +85,6 @@
 ![image](https://user-images.githubusercontent.com/60341565/149653903-aa6a8f9d-c243-43ab-a055-911a3e728e50.png)
 
 
-
-Добавляем свой корневой СА в доверенные
-
-    sudo cp ./vault.example.com.crt /etc/ca-certificates/trust-source/anchors/
-
-Обновляем общесистемный список доверенных CA
-
-    sudo update-ca-trust
-
 Задание 6.
 ==============================
 
