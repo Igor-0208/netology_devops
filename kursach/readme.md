@@ -147,7 +147,7 @@
 Задание 9.
 ==========================
 
-#!/usr/bin/env bash
+    #!/usr/bin/env bash
 
     echo "Vault unsealing..."
     ./vault_unseal.sh
