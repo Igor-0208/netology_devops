@@ -108,8 +108,6 @@
     
 ![image](https://user-images.githubusercontent.com/60341565/148697141-d6dfd53a-45ff-45fe-be65-0ac81ed2d25f.png)
 
-![image](https://user-images.githubusercontent.com/60341565/150334118-1b2ee4e4-dfb1-4d31-9f18-256f7f42bde7.png)
-
 
 Задание 7.
 ===========================
@@ -123,6 +121,17 @@
 В index.html пишем 
 
     Hello, Netology!
+
+Копируем приватный ключ
+
+    cp path.to/private.key /etc/certs/kursach/privkey.pem
+    
+Копируем цепочку сертификатов
+
+    cat path.to/end_cert.crt > /etc/certs/kursach/fullchain.pem
+    cat path.to/end_ca_chain >> /etc/certs/kursach/fullchain.pem
+
+![image](https://user-images.githubusercontent.com/60341565/150334118-1b2ee4e4-dfb1-4d31-9f18-256f7f42bde7.png)
 
 Задание 8.
 ==========================
