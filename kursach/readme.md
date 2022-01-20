@@ -114,7 +114,15 @@
 Задание 7.
 ===========================
 
+    openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096
 
+Создаем папку с файлом index.html для сайта
+
+    mkdir -p /var/www/html/index.html
+    
+В index.html пишем 
+
+    Hello, Netology!
 
 Задание 8.
 ==========================
