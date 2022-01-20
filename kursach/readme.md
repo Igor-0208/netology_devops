@@ -133,6 +133,9 @@
 
 ![image](https://user-images.githubusercontent.com/60341565/150334118-1b2ee4e4-dfb1-4d31-9f18-256f7f42bde7.png)
 
+![image](https://user-images.githubusercontent.com/60341565/150336765-0b5d0148-1648-4eab-82fd-8c5ab84a210b.png)
+
+
 Задание 8.
 ==========================
 ![image](https://user-images.githubusercontent.com/60341565/150324114-8ae09cf0-11d5-4ffe-b5bb-36bab5fdc78a.png)
