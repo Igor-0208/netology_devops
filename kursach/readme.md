@@ -145,29 +145,9 @@
 ![image](https://user-images.githubusercontent.com/60341565/150325064-f8cd6c64-e053-4782-bbc9-b2fa79d3f57d.png)
 
 Задание 9.
-==========================
+============================
 
-    #!/usr/bin/env bash
-
-    echo "Vault unsealing..."
-    ./vault_unseal.sh
-
-    echo "Login to vault..."
-    ./vault_login.sh
-
-    echo "Create new certificate..."
-    ./gen_cert.sh
-
-    echo "Private key copy..."
-    cp ./certs/end_private_key.pem /etc/certs/kursach/privkey.pem
-
-    echo "Fullchain copy..."
-    cat ./certs/end_cert.crt > /etc/certs/kursach/fullchain.pem
-    cat ./certs/end_ca_chain >> /etc/certs/kursach/fullchain.pem
-
-    echo "Nginx reloading"
-    systemctl restart nginx
 
 Задание 10.
-====================
-
+===========================
+![image](https://user-images.githubusercontent.com/60341565/150338970-3f1c4551-e133-48fa-8426-dd20360d3374.png)
