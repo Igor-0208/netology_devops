@@ -147,6 +147,26 @@
 Задание 9.
 ============================
 
+    #!/usr/bin/env bash
+
+    echo "Vault unsealing..."
+    ./vault_unseal.sh
+
+    echo "Login to vault..."
+    ./vault_login.sh
+
+    echo "Create new certificate..."
+    ./gen_cert.sh
+
+    echo "Private key copy..."
+    cp ./certs/end_private_key.pem /etc/certs/kursach/privkey.pem
+
+    echo "Fullchain copy..."
+    cat ./certs/end_cert.crt > /etc/certs/kursach/fullchain.pem
+    cat ./certs/end_ca_chain >> /etc/certs/kursach/fullchain.pem
+
+    echo "Nginx reloading"
+    systemctl restart nginx
 
 Задание 10.
 ===========================
