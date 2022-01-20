@@ -67,6 +67,13 @@
 
 ![image](https://user-images.githubusercontent.com/60341565/148689968-e92d101c-7015-428d-86ed-77b829097786.png)
 
+![image](https://user-images.githubusercontent.com/60341565/150332975-45acee53-ff36-43ac-85ed-4a8f011f8689.png)
+
+![image](https://user-images.githubusercontent.com/60341565/150333182-35f63059-b290-4c64-9c36-d46be4e0439c.png)
+
+![image](https://user-images.githubusercontent.com/60341565/150333473-1ed72585-4b85-4e83-bf95-073ffea66e9f.png)
+
+
 Задание 5.
 =====================
 
@@ -100,6 +107,9 @@
     systemctl start nginx
     
 ![image](https://user-images.githubusercontent.com/60341565/148697141-d6dfd53a-45ff-45fe-be65-0ac81ed2d25f.png)
+
+![image](https://user-images.githubusercontent.com/60341565/150334118-1b2ee4e4-dfb1-4d31-9f18-256f7f42bde7.png)
+
 
 Задание 7.
 ===========================
