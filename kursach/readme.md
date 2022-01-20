@@ -100,3 +100,16 @@
     systemctl start nginx
     
 ![image](https://user-images.githubusercontent.com/60341565/148697141-d6dfd53a-45ff-45fe-be65-0ac81ed2d25f.png)
+
+Задание 7.
+===========================
+
+
+
+Задание 8.
+==========================
+![image](https://user-images.githubusercontent.com/60341565/150324114-8ae09cf0-11d5-4ffe-b5bb-36bab5fdc78a.png)
+
+![image](https://user-images.githubusercontent.com/60341565/150324940-00da87c8-13c5-4b4b-a077-138f1b2aa41c.png)
+
+![image](https://user-images.githubusercontent.com/60341565/150325064-f8cd6c64-e053-4782-bbc9-b2fa79d3f57d.png)
