@@ -30,4 +30,4 @@ Push надёжней, т.к. централизованно управляет 
     ansible python module location = /usr/lib/python3/dist-packages/ansible
     executable location = /usr/bin/ansible
     python version = 3.8.10 (default, Sep 28 2021, 16:10:42) [GCC 9.3.0]
-/home/igor/Изображения/Снимок экрана от 2022-01-25 11-16-45.png
+![изображение](https://user-images.githubusercontent.com/60341565/150940412-53adacb5-f08f-49ca-8c0f-bdd0744da233.png)
