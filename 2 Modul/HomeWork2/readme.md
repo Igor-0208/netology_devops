@@ -20,3 +20,13 @@ Push надёжней, т.к. централизованно управляет 
 
 Задание 3.
 ==================
+
+  igor@igor-X202EP:~$ vagrant --version
+  Vagrant 2.2.6
+  igor@igor-X202EP:~$ ansible --version
+  ansible 2.9.6
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/home/igor/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.8.10 (default, Sep 28 2021, 16:10:42) [GCC 9.3.0]
