@@ -11,6 +11,6 @@
 Задание 3.
 ======================
 
-![изображение](https://user-images.githubusercontent.com/60341565/152654168-0b524fe9-ffbe-405e-8cd2-5c620df2ea3a.png)
+![изображение](https://user-images.githubusercontent.com/60341565/152654213-be33fc3f-88ad-485f-aa12-10485cf8e5c0.png)
 
-![изображение](https://user-images.githubusercontent.com/60341565/152654182-520abc87-b5e3-4a01-bf96-a43a0388935f.png)
+![изображение](https://user-images.githubusercontent.com/60341565/152654225-d9c7eaea-a36a-4852-9ad8-7254679c659c.png)
