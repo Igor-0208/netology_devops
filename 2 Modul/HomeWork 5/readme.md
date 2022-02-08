@@ -26,3 +26,8 @@ Overlay network - это сетевой драйвер для соединени
 ==================
 
 ![изображение](https://user-images.githubusercontent.com/60341565/153043680-a20b6f19-fb16-4e68-93a6-c9d9e98ad4df.png)
+
+Задание 4.
+==================
+
+![изображение](https://user-images.githubusercontent.com/60341565/153049389-9c0c7106-2ba1-4522-9655-5193cf0425e4.png)
