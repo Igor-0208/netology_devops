@@ -40,7 +40,7 @@ docker-compose.yml
 Итоговый список БД после выполнения пунктов выше.
 ================================================
 
-    postgres=# test_db=# \l                   
+    postgres=# \l                   
                                      List of databases
        Name    |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileg
     es   
@@ -65,7 +65,7 @@ docker-compose.yml
 
 clients
 
-    postgres-# test_db=# \d clients
+    postgres-# \d clients
                                               Table "public.clients"
                   Column               |  Type   | Collation | Nullable |               Default               
     -----------------------------------+---------+-----------+----------+-------------------------------------
@@ -83,7 +83,7 @@ clients
 
 orders
 
-    postgres-# test_db=# \d orders
+    postgres-# \d orders
                                          Table "public.orders"
               Column          |  Type   | Collation | Nullable |              Default               
     --------------------------+---------+-----------+----------+------------------------------------
