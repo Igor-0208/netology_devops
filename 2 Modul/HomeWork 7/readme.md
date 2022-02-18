@@ -22,11 +22,17 @@ docker-compose.yml
       data:
       backup:
 
+Запускаем Docker-Compose
 
     docker-compose up -d
+
+Запускаем команду в работающем контейнере
 
     root@igor-X202EP:/home/igor/Postgres# docker exec -it 5113c0a8395e sh
     # su - postgres
     postgres@5113c0a8395e:~$ psql
     psql (12.10 (Debian 12.10-1.pgdg110+1))
     Type "help" for help.
+
+Задание 2.
+====================
