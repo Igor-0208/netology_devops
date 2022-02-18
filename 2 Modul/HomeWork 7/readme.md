@@ -228,3 +228,28 @@ width - какой будет средняя длина строки в байт
 Задание 6.
 ===
 
+Создайте бэкап БД test_db и поместите его в volume, предназначенный для бэкапов (см. Задачу 1).
+
+    pg_dump -U postgres -h db -p 5432 --format=custom --clean --create --if-exists -f /var/tmp/backup/test_db.custom test_db
+
+Остановите контейнер с PostgreSQL (но не удаляйте volumes).
+
+    root@igor-X202EP:/home/igor/Postgres# docker-compose stop
+    Stopping postgres_postgres_1 ... done
+    root@igor-X202EP:/home/igor/Postgres# docker ps -a
+    CONTAINER ID   IMAGE          COMMAND                  CREATED        STATUS                      PORTS     NAMES
+    5113c0a8395e   postgres:12    "docker-entrypoint.s…"   4 hours ago    Exited (0) 12 seconds ago             postgres_postgres_1
+
+Поднимите новый пустой контейнер с PostgreSQL.
+
+    root@igor-X202EP:/home/igor/Postgres# docker run --rm -d -e POSTGRES_USER=test-admin-user -e POSTGRES_PASSWORD=netology -e POSTGRES_DB=test_db -v psql_backup:/var/tmp/backup --name postgres_2 postgres:12
+    48269c9d955ce5b633bd784145f8d86790144b035ab66c4bf9422a96e5b7cb12
+    root@igor-X202EP:/home/igor/Postgres# docker ps -a
+    CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS                     PORTS      NAMES
+    48269c9d955c   postgres:12    "docker-entrypoint.s…"   24 seconds ago   Up 22 seconds              5432/tcp   postgres_2
+    5113c0a8395e   postgres:12    "docker-entrypoint.s…"   5 hours ago      Exited (0) 5 minutes ago              postgres_postgres_1
+
+Восстановите БД test_db в новом контейнере.
+
+    docker exec -it postgres_2  bash
+    export PGPASSWORD=netology && postgres_postgres_1 -h localhost -U test-admin-user -f $(ls -1trh /var/tmp/backup/*.sql) test_db
