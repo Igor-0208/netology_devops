@@ -6,7 +6,7 @@
     docker run --rm --name my \
         -e MYSQL_DATABASE=test_db \
         -e MYSQL_ROOT_PASSWORD=netology \
-        -v $PWD/backup:/media/mysql/backup \
+        -v $PWD/backup:/var/tmp/backup \
         -v my_data:/var/lib/mysql \
         -v $PWD/config/conf.d:/etc/mysql/conf.d \
         -p 13306:3306 \
