@@ -12,4 +12,5 @@
         -p 13306:3306 \
         -d mysql:8
         
+
     root@igor-X202EP:/home/igor# docker exec -it 181f1d009733 bash
