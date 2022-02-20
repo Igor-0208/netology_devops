@@ -108,3 +108,24 @@
         |        7 | 0.01822650 | alter table orders engine = 'MyISAM' |
         |        8 | 0.02154475 | alter table orders engine = 'InnoDB' |
         +----------+------------+--------------------------------------+
+
+Задание 4.
+========
+
+Буффер кеширования 30% рассчитан - 2гб ОЗУ
+
+        [mysqld]
+        pid-file        = /var/run/mysqld/mysqld.pid
+        socket          = /var/run/mysqld/mysqld.sock
+        datadir         = /var/lib/mysql
+        secure-file-priv= NULL
+
+        # Custom config should go here
+        !includedir /etc/mysql/conf.d/
+
+        # Netology
+        innodb_flush_log_at_trx_commit = 2
+        innodb_file_per_table = ON
+        innodb_log_buffer_size = 1048576
+        innodb_buffer_pool_size = 1688207360
+        innodb_log_file_size = 104857600
