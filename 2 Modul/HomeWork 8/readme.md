@@ -24,15 +24,16 @@
 
 Найдите команду для выдачи статуса БД и приведите в ответе из ее вывода версию сервера БД.
 
-    mysql> \s
-    --------------
-    mysql  Ver 8.0.28 for Linux on x86_64 (MySQL Community Server - GPL)
+        mysql> \s
+        --------------
+        mysql  Ver 8.0.28 for Linux on x86_64 (MySQL Community Server - GPL)
 
-    Connection id:		11
-    Current database:	
-    Current user:		root@localhost
-    SSL:			Not in use
-    Current pager:		stdout
-    Using outfile:		''
-    Using delimiter:	;
-    Server version:		8.0.28 MySQL Community Server - GPL
+        Connection id:		11
+        Current database:	
+        Current user:		root@localhost
+        SSL:			Not in use
+        Current pager:		stdout
+        Using outfile:		''
+        Using delimiter:	;
+        Server version:		8.0.28 MySQL Community Server - GPL
+
