@@ -206,6 +206,21 @@ docker-compose.yml
 
       test_database=# 
 
+Можно ли было изначально исключить "ручное" разбиение при проектировании таблицы orders?
+
+      CREATE TABLE orders (
+          id integer NOT NULL,
+          title character varying(80) NOT NULL,
+          price integer DEFAULT 0
+      );
+
 Задание 4.
 ===
 
+Используя утилиту pg_dump создайте бекап БД test_database.
+
+      pg_dump -f /var/tmp/my_dump.sql -h db -p 5432 -U postgres test_database 
+      
+Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца title для таблиц test_database?
+
+      title character varying(80) NOT NULL UNIQUE,
