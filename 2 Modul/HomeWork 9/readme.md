@@ -148,3 +148,64 @@ docker-compose.yml
 Задание 3.
 ===
 
+       alter table orders rename to orders_old;
+
+        create table orders as table orders_old with no data;
+
+        create table orders_1 (check (price>499)) inherits (orders);
+
+        create table orders_2 (check (price<=499)) inherits (orders);
+
+        create rule orders_insert_over_499 as on insert to orders
+        where (price>499)
+        do instead insert into orders_1 values(NEW.*);
+
+        create rule orders_insert_499_or_less as on insert to orders
+        where (price<=499)
+        do instead insert into orders_2 values(NEW.*);
+
+        insert into orders (id,title,price) select * from orders_old;
+
+        alter table orders_old alter id drop default;
+        ALTER SEQUENCE orders_id_seq OWNED BY orders.id;
+
+        drop table orders_old;
+
+Результат:
+
+      test_database=# select * from orders_1;
+       id |       title        | price 
+      ----+--------------------+-------
+        2 | My little database |   500
+        6 | WAL never lies     |   900
+        8 | Dbiezdmin          |   501
+      (3 rows)
+
+      test_database=# select * from orders_2;
+       id |        title         | price 
+      ----+----------------------+-------
+        1 | War and peace        |   100
+        3 | Adventure psql time  |   300
+        4 | Server gravity falls |   300
+        5 | Log gossips          |   123
+        7 | Me and my bash-pet   |   499
+      (5 rows)
+
+      test_database=# select * from orders;
+       id |        title         | price 
+      ----+----------------------+-------
+        2 | My little database   |   500
+        6 | WAL never lies       |   900
+        8 | Dbiezdmin            |   501
+        1 | War and peace        |   100
+        3 | Adventure psql time  |   300
+        4 | Server gravity falls |   300
+        5 | Log gossips          |   123
+        7 | Me and my bash-pet   |   499
+      (8 rows)
+
+      test_database=# 
+
+Задание 4.
+===
+
