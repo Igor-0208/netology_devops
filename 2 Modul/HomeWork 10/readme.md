@@ -49,4 +49,12 @@ Dockerfile:
 
 Запускаем Docker контейнер:
 
+    docker run -d --mount source=es_volume,target=/opt/ext_volume --ulimit nofile=65535 -p=9200:9200 -p=9300:9300 centos7-elasticsearch8_0_0
+
+Проверяем:
+
+    root@igor-X202EP:/home/igor/centos7:elasticsearch# docker ps -a
+    CONTAINER ID   IMAGE                        COMMAND                  CREATED             STATUS                         PORTS                                       NAMES
+    7142823e0489   centos7-elasticsearch8_0_0   "/bin/sh -c ./elasti…"   12 seconds ago      Exited (1) 8 seconds ago             
+
 
