@@ -53,8 +53,9 @@ Dockerfile:
 
 Проверяем:
 
-    root@igor-X202EP:/home/igor/centos7:elasticsearch# docker ps -a
-    CONTAINER ID   IMAGE                        COMMAND                  CREATED             STATUS                         PORTS                                       NAMES
-    7142823e0489   centos7-elasticsearch8_0_0   "/bin/sh -c ./elasti…"   12 seconds ago      Exited (1) 8 seconds ago             
+    root@igor-X202EP:/home/igor/centos7:elasticsearch# docker ps
+    CONTAINER ID   IMAGE                        COMMAND                  CREATED         STATUS         PORTS                                                                                  NAMES
+    eb36cd5a9900   centos7-elasticsearch8_0_0   "/bin/sh -c ./elasti…"   3 seconds ago   Up 2 seconds   0.0.0.0:9200->9200/tcp, :::9200->9200/tcp, 0.0.0.0:9300->9300/tcp, :::9300->9300/tcp   ecstatic_cray
+      
 
 
