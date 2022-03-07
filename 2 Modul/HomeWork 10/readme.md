@@ -47,3 +47,6 @@ Dockerfile:
 
     docker push igor020899/netology:centos7-elasticsearch
 
+Запускаем Docker контейнер:
+
+
