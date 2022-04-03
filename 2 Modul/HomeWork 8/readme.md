@@ -129,3 +129,4 @@
         innodb_log_buffer_size = 1048576
         innodb_buffer_pool_size = 1688207360
         innodb_log_file_size = 104857600
+
