@@ -114,3 +114,4 @@ fs.nr_open - Лимит на количество открытых дескри�
 Выполнение команды dmesg
 
 ![image](https://user-images.githubusercontent.com/60341565/143078165-9aaf70a9-9924-4ae0-81cd-a2bcc33daefa.png)
+
