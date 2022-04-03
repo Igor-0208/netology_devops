@@ -80,3 +80,4 @@ Gitlab сервер для реализации CI/CD процессов и пр
     total 8
     -rw-r--r-- 1 root root 15 Jan 28 15:47 centos.txt
     -rw-r--r-- 1 root root 27 Jan 28 15:48 host.txt
+
