@@ -65,3 +65,4 @@
 7.  git log -S "synchronizedWriters"
 
     Author: Martin Atkins <mart@degeneration.co.uk>
+
