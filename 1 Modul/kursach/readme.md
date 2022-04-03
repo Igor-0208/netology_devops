@@ -169,3 +169,4 @@
 Задание 10.
 ===========================
 ![image](https://user-images.githubusercontent.com/60341565/150338970-3f1c4551-e133-48fa-8426-dd20360d3374.png)
+
