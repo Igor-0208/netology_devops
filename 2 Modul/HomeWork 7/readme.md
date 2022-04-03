@@ -253,3 +253,4 @@ width - какой будет средняя длина строки в байт
 
     docker exec -it postgres_2  bash
     export PGPASSWORD=netology && postgres_postgres_1 -h localhost -U test-admin-user -f $(ls -1trh /var/tmp/backup/*.sql) test_db
+
