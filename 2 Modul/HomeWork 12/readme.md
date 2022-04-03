@@ -50,3 +50,4 @@ Packer, Terraform, Docker, Kubernetes, Ansible.
         Your version of Terraform is out of date! The latest version
         is 1.1.7. You can update by downloading from https://www.terraform.io/downloads.html
         root@igor-X202EP:/# 
+
