@@ -167,3 +167,4 @@ Push надёжней, т.к. централизованно управляет 
 
     root@server1:/home# docker ps
     CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
