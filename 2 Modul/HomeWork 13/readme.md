@@ -10,4 +10,4 @@
    6. On test <-> On fix, Done
    7. Done <-> Closed, Open
 
-![изображение](https://user-images.githubusercontent.com/60341565/166994571-b678faa2-141f-48ce-8842-c83d1b3e24fb.png)
+![изображение](https://user-images.githubusercontent.com/60341565/167081337-d9c78825-6144-4fa1-bd93-e45ebc0e8c43.png)
