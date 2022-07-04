@@ -11,6 +11,7 @@
 Задание 3.
 ===
 1.
+
     package main
 
     import "fmt"
