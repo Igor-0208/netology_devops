@@ -26,3 +26,7 @@ Bug
 ![изображение](https://user-images.githubusercontent.com/60341565/167108848-45812df4-bc44-4a37-9cf4-1e4b01f088ea.png)
 
 ![изображение](https://user-images.githubusercontent.com/60341565/167108947-6b342188-9465-4b94-b52f-14e1ba451650.png)
+
+
+
+https://github.com/Igor-0208/netology_devops/blob/main/2%20Modul/HomeWork%2013/bug_workflow.xml
