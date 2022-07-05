@@ -29,4 +29,4 @@ Bug
 
 
 
-https://github.com/Igor-0208/netology_devops/blob/main/2%20Modul/HomeWork%2013/bug_workflow.xml
+!BUG_workflow(https://github.com/Igor-0208/netology_devops/blob/main/2%20Modul/HomeWork%2013/bug_workflow.xml)
