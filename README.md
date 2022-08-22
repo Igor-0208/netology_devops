@@ -29,3 +29,19 @@
     secret: ***
 2. Создали бакет в YC:
 
+![изображение](https://user-images.githubusercontent.com/60341565/185986619-e864211f-bb43-422b-9c17-2d1a1d869a94.png)
+
+Конфигурация содержится в файле provider.tf:
+
+        backend "s3" {
+          endpoint = "storage.yandexcloud.net"
+          bucket   = "netology-diplom-devops"
+          region   = "ru-central1"
+          key      = "stage/terraform-stage.tfstate"
+
+          skip_region_validation      = true
+          skip_credentials_validation = true
+        }
+        
+3. Настройка workspaces
+
