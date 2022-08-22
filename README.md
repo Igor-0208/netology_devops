@@ -27,7 +27,7 @@
       created_at: "2022-08-22T17:09:28.742607390Z"
       key_id: ***
     secret: ***
-2. Создали бакет в YC:
+ Создали бакет в YC:
 
 ![изображение](https://user-images.githubusercontent.com/60341565/185986619-e864211f-bb43-422b-9c17-2d1a1d869a94.png)
 
@@ -43,7 +43,7 @@
           skip_credentials_validation = true
         }
         
-3. Настройка workspaces
+ Настройка workspaces
 
 Создаем workspaces `prod` и `stage`:
 ![изображение](https://user-images.githubusercontent.com/60341565/185987254-33395269-a42f-461c-b9ee-bbb93b5f3db0.png)
@@ -52,4 +52,4 @@
       default
       prod
     * stage
-
+Создание VPC с подсетями в разных зонах доступности.
