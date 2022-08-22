@@ -45,3 +45,11 @@
         
 3. Настройка workspaces
 
+Создаем workspaces `prod` и `stage`:
+![изображение](https://user-images.githubusercontent.com/60341565/185987254-33395269-a42f-461c-b9ee-bbb93b5f3db0.png)
+
+    root@igor-X202EP:/home/igor/netology_devops/diplom/terraform# terraform workspace list
+      default
+      prod
+    * stage
+
