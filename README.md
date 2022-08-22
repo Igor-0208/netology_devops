@@ -1,4 +1,3 @@
-# netology_devops
-Homework 
-Igor Malakhov
-first line
+Дипломный практикум в YandexCloud
+1. Зарегистрировать доменное имя (любое на ваш выбор в любой доменной зоне).
+===
