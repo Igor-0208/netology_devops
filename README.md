@@ -53,3 +53,4 @@
       prod
     * stage
 Создание VPC с подсетями в разных зонах доступности.
+![изображение](https://user-images.githubusercontent.com/60341565/186162915-0b9c77a3-79d2-4068-bc40-6065db2c6896.png)
